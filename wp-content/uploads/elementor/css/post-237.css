@@ -1,0 +1,77 @@
+.elementor-237 .elementor-element.elementor-element-5176ee7{--display:flex;--min-height:670px;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--gap:0px 0px;--flex-wrap:nowrap;--background-transition:0.3s;border-style:solid;--border-style:solid;border-width:0px 0px 0px 0px;--border-block-start-width:0px;--border-inline-end-width:0px;--border-block-end-width:0px;--border-inline-start-width:0px;border-color:var( --e-global-color-primary );--border-color:var( --e-global-color-primary );}.elementor-237 .elementor-element.elementor-element-5176ee7, .elementor-237 .elementor-element.elementor-element-5176ee7::before{--border-transition:0.3s;}.elementor-237 .elementor-element.elementor-element-0212af6 .jet-listing-dynamic-repeater__items{flex-direction:column;justify-content:flex-end;}.elementor-237 .elementor-element.elementor-element-0212af6 .jet-listing-dynamic-repeater__item > *{justify-content:flex-end;font-family:"Sinkin Sans", Sans-serif;font-size:0.8rem;font-weight:bold;line-height:28px;color:var( --e-global-color-secondary );margin:0px 0px 50px 0px;}.elementor-237 .elementor-element.elementor-element-0212af6 .jet-listing-dynamic-repeater__delimiter{color:#FFFFFF;}.elementor-237 .elementor-element.elementor-element-0212af6 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-237 .elementor-element.elementor-element-0212af6{width:100%;max-width:100%;}@media(max-width:1024px){.elementor-237 .elementor-element.elementor-element-5176ee7{--min-height:0px;--padding-block-start:0px;--padding-block-end:0px;--padding-inline-start:0px;--padding-inline-end:0px;}.elementor-237 .elementor-element.elementor-element-0212af6 .jet-listing-dynamic-repeater__item > *{font-size:0.7rem;line-height:25px;}}@media(max-width:767px){.elementor-237 .elementor-element.elementor-element-5176ee7{border-width:1px 1px 1px 1px;--border-block-start-width:1px;--border-inline-end-width:1px;--border-block-end-width:1px;--border-inline-start-width:1px;--padding-block-start:0px;--padding-block-end:0px;--padding-inline-start:0px;--padding-inline-end:0px;}}/* Start custom CSS for jet-listing-dynamic-repeater, class: .elementor-element-0212af6 */.at-venue{
+    margin-top:-100px !important; 
+    margin-right: 40px !important;
+}
+#venue-container{
+    transform: translateY(-100px);
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-5176ee7 */.carrusel-vertical-1 {
+  animation: looping 80s linear 0s infinite none;
+}
+
+.columna-vertical-1 {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    transparent,
+    black 20%,
+    black 80%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    transparent,
+    black 20%,
+    black 80%,
+    transparent 100%
+  );
+}
+
+@keyframes looping {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .columna-vertical-1 {
+    width: 100px;
+  }
+}
+
+#my-container {
+  overflow-y: scroll !important;
+  height: 100px !important;
+}
+
+/* Medium devices (tablets/desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+#my-container {
+  overflow-y: scroll !important;
+  height: 760px !important;
+  
+}
+}
+
+/* Small devices (mobile/tablets, 767px and below) */
+@media only screen and (max-width: 766px) {#my-container {
+  overflow-y: scroll !important;
+  height: 450px !important;
+  
+}
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Sinkin Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://mtzulu27.github.io/ghvenues/wp-content/uploads/2023/10/SinkinSans-400Regular-2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Sinkin Sans';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://mtzulu27.github.io/ghvenues/wp-content/uploads/2023/10/SinkinSans-700Bold.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
